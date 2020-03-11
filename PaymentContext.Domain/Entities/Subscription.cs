@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 
 namespace PaymentContext.Domain.Entities
 {
@@ -8,6 +9,7 @@ namespace PaymentContext.Domain.Entities
         public DateTime CreateDate { get; set; }
         public DateTime LastUpdateDate { get; set; }    //data da ultima atualização
         public DateTime? ExpireDate { get; set; }    //exclamação, pois é nulable
+        public List<Payment> Payments { get; set; }
    }
 
 }

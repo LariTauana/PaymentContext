@@ -8,6 +8,7 @@ namespace PaymentContext.Domain.Entities
         public string LastName {get; set; }
         public string Document {get; set;}
         public string Email{get; set; }
+        public string Address { get; set; }     //Endereço de entrega
         public List<Subscription> Subscriptions { get; set; }
     } 
 }
