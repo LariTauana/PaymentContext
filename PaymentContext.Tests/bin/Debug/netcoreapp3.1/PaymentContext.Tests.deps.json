@@ -11,6 +11,8 @@
           "MSTest.TestAdapter": "2.0.0",
           "MSTest.TestFramework": "2.0.0",
           "Microsoft.NET.Test.Sdk": "16.2.0",
+          "PaymentContext.Domain": "1.0.0",
+          "PaymentContext.Shared": "1.0.0",
           "coverlet.collector": "1.0.1"
         },
         "runtime": {
@@ -1323,6 +1325,19 @@
             "fileVersion": "1.0.24212.1"
           }
         }
+      },
+      "PaymentContext.Domain/1.0.0": {
+        "dependencies": {
+          "PaymentContext.Shared": "1.0.0"
+        },
+        "runtime": {
+          "PaymentContext.Domain.dll": {}
+        }
+      },
+      "PaymentContext.Shared/1.0.0": {
+        "runtime": {
+          "PaymentContext.Shared.dll": {}
+        }
       }
     }
   },
@@ -2066,6 +2081,16 @@
       "sha512": "sha512-Zm2BdeanuncYs3NhCj4c9e1x3EXFzFBVv2wPEc/Dj4ZbI9R8ecLSR5frAsx4zJCPBtKQreQ7Q/KxJEohJZbfzA==",
       "path": "system.xml.xpath.xmldocument/4.0.1",
       "hashPath": "system.xml.xpath.xmldocument.4.0.1.nupkg.sha512"
+    },
+    "PaymentContext.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PaymentContext.Shared/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }
