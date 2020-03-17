@@ -20,7 +20,7 @@ namespace PaymentContext.Domain.Entities
 
         public string Number {get; private set; }           //Até 9 dígitos
         public DateTime PaidDate { get; private set; }
-        public  DateTime ExpireDate{ get; private set; }
+        public DateTime ExpireDate{ get; private set; }
         public decimal Total { get; private set; }
         public decimal TotalPaid { get; private set; }
         public string Payer { get; private set; }

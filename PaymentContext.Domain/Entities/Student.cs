@@ -14,8 +14,9 @@ namespace PaymentContext.Domain.Entities
             Document = document;
             Email = email;
             _subscriptions = new List<Subscription>();
-        }
 
+            
+        }
 
         public Name Name {get; private set; }
         public Document Document {get; private set;}
